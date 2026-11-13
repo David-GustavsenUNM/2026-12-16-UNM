@@ -15,7 +15,7 @@ instructor: ["Jon Wheeler", "Danielle Maruici-Pollock", "Sabrina Templeton" ] # 
 helper: ["David Gustavsen", "Andrea Rodriguez"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["dgustavs@unm.edu","jwheel01@unm.edu", "DMauriciPollock@salud.unm.edu" ]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 # Optional variables
-collaborative_notes:  # URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: https://pad.carpentries.org/2026-12-16-UNM  # URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 # DON'T CHANGE THIS
@@ -409,7 +409,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 {% comment %}
 COLLABORATIVE NOTES
-<a href="https://pad.carpentries.org/2026-12-16-UNM"> https://pad.carpentries.org/2026-12-16-UNM </a>
+<a href="{{ page.collaborative_notes }}"> https://pad.carpentries.org/2026-12-16-UNM </a>
 
 
 {% endcomment %}
