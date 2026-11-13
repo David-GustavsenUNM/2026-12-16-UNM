@@ -409,20 +409,14 @@ Edit the text to match who can attend the workshop. For instance:
 
 {% comment %}
 COLLABORATIVE NOTES
+<a href="https://pad.carpentries.org/2026-12-16-UNM"> https://pad.carpentries.org/2026-12-16-UNM </a>
 
-If you want to use an Etherpad, go to
 
-https://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-
-Note we also have a CodiMD (the open-source version of HackMD) available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We will use this <a href="https://pad.carpentries.org/2026-12-16-UNM ">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
